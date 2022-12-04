@@ -12,5 +12,5 @@ with open("input.txt","r") as file:
             y += int(i)
 
 j.sort()
-print(j[len(j)-1])
-print(sum(j[-3:]))
+print(f'Part1: {j[len(j)-1]}')
+print(f'Part2: {sum(j[-3:])}')

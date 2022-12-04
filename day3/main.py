@@ -46,5 +46,5 @@ def part2():
     
     return sum_items(items)
 
-print(part1())
-print(part2())
+print(f'Part1: {part1()}')
+print(f'Part2: {part2()}')

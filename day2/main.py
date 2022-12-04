@@ -58,5 +58,5 @@ def part2():
                 point = point + index[win[data[0]]] + 6
     return point
             
-print(part1())
-print(part2())
+print(f'Part1: {part1()}')
+print(f'Part2: {part2()}')
